@@ -1,7 +1,7 @@
-id: 593b11fd-03e0-4386-ab39-1a68d346142c
 name: HighlightParamMinerTargets
 function: VIEW_FILTER
 location: PROXY_HTTP_HISTORY
+source: |+
   /**
    * Filters non-empty 200 json-based response classes which can be used to find easy routes to attack with the paramminer guess json params and a custom wordlist, ie:
    * 
